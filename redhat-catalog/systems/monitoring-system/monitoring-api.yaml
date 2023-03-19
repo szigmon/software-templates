@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:team-sre
+  owner: group:sre-team
   definition: >
     openapi: 3.0.0
     info:
