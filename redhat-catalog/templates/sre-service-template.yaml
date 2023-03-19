@@ -5,7 +5,7 @@ metadata:
   title: SRE Service Template
   description: Create a new SRE service with a backend, API, and database
 spec:
-  owner: team-sre
+  owner: sre-team
   type: service
   steps:
   - id: create-backend

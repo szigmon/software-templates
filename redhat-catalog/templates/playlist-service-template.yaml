@@ -5,7 +5,7 @@ metadata:
   title: Playlist Service Template
   description: Create a new Playlist service with a frontend website, backend, API, and database
 spec:
-  owner: team-playlist
+  owner: playlist-dev-team
   type: service
   steps:
   - id: create-frontend

@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: monitoring-api
+  description: The API for the monitoring system
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:team-sre
+  definition: >
+    openapi: 3.0.0
+    info:
+      title: Monitoring API
+      description: The API for the monitoring system
+      version: 1.0.0
+    paths:
+      /metrics:
+        get:
+          summary: Get monitoring metrics
+          operationId: getMetrics
+          responses:
+            '200':
+              description: A JSON object with the monitoring metrics
+              content:
+                application/json:
+                  schema:
+                    type: object
