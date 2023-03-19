@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: monitoring-backend
+  description: Backend service for monitoring infrastructure
+spec:
+  type: service
+  owner: group:sre-team
+  system: monitoring-system

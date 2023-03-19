@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bob
+  description: Bob from SRE Team
+spec:
+  profile:
+    displayName: Bob
+    email: bob.sre@example.com
+  memberOf:
+    - group:sre-team

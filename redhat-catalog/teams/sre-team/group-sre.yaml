@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sre-team
+  description: Site Reliability Engineering Team
+spec:
+  type: team
+  profile:
+    displayName: SRE Team
+    email: sre-team@example.com
+  children:
+    - user:alice-sre
+    - user:bob-sre

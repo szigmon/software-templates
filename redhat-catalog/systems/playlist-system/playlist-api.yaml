@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: playlist-api
+  description: API for playlist management
+spec:
+  type: openapi
+  owner: group:playlist-dev-team
+  definition: https://example.com/swagger/playlist-api.yaml
+  system: playlist-system

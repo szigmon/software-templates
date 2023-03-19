@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: playlist-frontend
+  description: Web interface for playlist management
+spec:
+  type: website
+  owner: group:playlist-dev-team
+  system: playlist-system

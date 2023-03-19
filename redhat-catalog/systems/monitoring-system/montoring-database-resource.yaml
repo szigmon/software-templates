@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: monitoring-database
+  description: Database for monitoring infrastructure data storage
+spec:
+  type: database
+  owner: group:sre-team
+  system: monitoring-system

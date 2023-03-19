@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: playlist-dev-team
+  description: Playlist Development Team
+spec:
+  type: team
+  profile:
+    displayName: Playlist Development Team
+    email: playlist-team@example.com
+  children:
+    - user:eric-playlist
+    - user:frank-playlist

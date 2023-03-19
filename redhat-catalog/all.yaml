@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all
+  description: A collection of all Backstage example entities
+
+spec:
+  owner: group:engineering
+  targets:
+    - ./all-apis.yaml
+    - ./all-components.yaml
+    - ./all-domains.yaml
+    - ./all-groups.yaml
+    - ./all-resources.yaml
+    - ./all-systems.yaml
+    - ./all-templates.yaml

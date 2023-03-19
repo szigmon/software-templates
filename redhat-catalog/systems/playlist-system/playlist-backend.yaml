@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: playlist-backend
+  description: Backend service for playlist management
+spec:
+  type: service
+  owner: group:playlist-dev-team
+  system: playlist-system

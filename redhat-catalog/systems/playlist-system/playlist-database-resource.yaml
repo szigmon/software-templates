@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: playlist-database
+  description: Database for playlist data storage
+spec:
+  type: database
+  owner: group:playlist-dev-team
+  system: playlist-system

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: eric-playlist
+  description: Eric from Playlist Development Team
+spec:
+  profile:
+    displayName: Eric
+    email: eric.playlist@example.com
+  memberOf:
+    - group:playlist-dev-team

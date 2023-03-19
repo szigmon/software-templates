@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1beta2
+kind: Template
+metadata:
+  name: sre-service
+  title: SRE Service Template
+  description: Create a new SRE service with a backend, API, and database
+spec:
+  owner: team-sre
+  type: service
+  steps:
+  - id: create-backend
+    name: Create Backend
+    action: fetch:plain
+    input:
+      url: https://example.com/backend-template.zip
+      dest: ./backend
+  - id: create-api
+    name: Create API
+    action: fetch:plain
+    input:
+      url: https://example.com/api-template.zip
+      dest: ./api
+  - id: create-database
+    name: Create Database
+    action: fetch:plain
+    input:
+      url: https://example.com/database-template.zip
+      dest: ./database
