@@ -60,7 +60,7 @@ spec:
       required:
         - imageRepository
         - namespace
-        - imageNamespace
+        - imageUrl
         - port
       properties:
         imageRepository:
@@ -73,10 +73,10 @@ spec:
           enumNames:
             - Internal OpenShift Registry
             - Quay
-        imageNamespace:
+        imageUrl:
           title: Image Namespace
           type: string
-          description: Enter the Quay.io or OpenShift Image Namespace <REGISTRY>/<image_namespace>/<REPO_NAME>
+          description: Enter the Quay.io or OpenShift Image Namespace <REGISTRY>/<image_url>/<REPO_NAME>
         namespace:
           title: Namespace
           type: string
@@ -98,7 +98,7 @@ spec:
           github_org: ${{ parameters.githubOrg }}
           repo_name: ${{ parameters.repoName }}
           namespace: ${{ parameters.namespace }}
-          image_namespace: ${{ parameters.imageNamespace }}
+          image_url: ${{ parameters.imageUrl }}
           default_branch: main
           image_builder: s2i-python
           image_repository: ${{ parameters.imageRepository }}
@@ -114,7 +114,7 @@ spec:
           description: ${{ parameters.description }}
           owner: ${{ parameters.owner}}
           namespace: ${{ parameters.namespace }}
-          image_namespace: ${{ parameters.imageNamespace }}
+          image_url: ${{ parameters.imageUrl }}
           port: ${{ parameters.port }}
           image_repository: ${{ parameters.imageRepository }}
 
@@ -129,7 +129,7 @@ spec:
           description: ${{ parameters.description }}
           owner: ${{ parameters.owner}}
           namespace: ${{ parameters.namespace }}
-          image_namespace: ${{ parameters.imageNamespace }}
+          image_url: ${{ parameters.imageUrl }}
           port: ${{ parameters.port }}
           image_repository: ${{ parameters.imageRepository }}
 
@@ -144,7 +144,7 @@ spec:
           description: ${{ parameters.description }}
           owner: ${{ parameters.owner}}
           namespace: ${{ parameters.namespace }}
-          image_namespace: ${{ parameters.imageNamespace }}
+          image_url: ${{ parameters.imageUrl }}
           port: ${{ parameters.port }}
           image_repository: ${{ parameters.imageRepository }}
 
