@@ -8,7 +8,7 @@ metadata:
   annotations:
     argocd/app-name: ${{values.repo_name}}
     backstage.io/kubernetes-id: ${{values.repo_name}}
-    backstage.io/kubernetes-namespace: ${{namespace}}
+    backstage.io/kubernetes-namespace: ${{ values.namespace}}
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ${{values.github_org}}/${{values.repo_name}}
 spec:
