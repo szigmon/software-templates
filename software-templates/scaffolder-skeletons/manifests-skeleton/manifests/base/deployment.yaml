@@ -2,16 +2,21 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: ${{ values.repo_name }}
+  labels:
+    backstage.io/kubernetes-id: ${{ values.namespace }}
+    app.kubernetes.io/component: backstage
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: ${{ values.repo_name }}
+      app.kubernetes.io/component: backstage
   template:
     metadata:
       labels:
         app: ${{ values.repo_name }}
         backstage.io/kubernetes-id: ${{ values.namespace }}
+        app.kubernetes.io/component: backstage
     spec:
       containers:
         - name: ${{ values.repo_name }}
