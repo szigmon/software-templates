@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: backstage
+  name: engineering
   description: The backstage sub-department
 spec:
   type: department
   profile:
-    displayName: Backstage
-    email: backstage@example.com
+    displayName: engineering
+    email: engineering@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: redhat
   children: [sre-team, playlist-dev-team]
