@@ -8,4 +8,4 @@ spec:
     displayName: Eric
     email: eric.playlist@example.com
     picture: https://avatars.dicebear.com/api/avataaars/jonathon-page@example.com.svg?background=%23fff
-  memberOf: [team-playlist]
+  memberOf: [playlist-dev-team]
