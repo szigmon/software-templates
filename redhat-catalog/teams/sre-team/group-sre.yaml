@@ -8,6 +8,6 @@ spec:
   profile:
     displayName: SRE Team
     email: sre-team@example.com
-  children:
-    - user:alice-sre
-    - user:bob-sre
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+    parent: backstage
+  children: []
