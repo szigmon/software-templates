@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./sre-team/group-sre.yaml
+    - ./team-playlist/playlist-dev-team.yaml
+    - ./engineering/group-engineering.yaml
+    - ./backstage-group.yaml
