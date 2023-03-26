@@ -14,4 +14,4 @@ spec:
     displayName: Redhat Corp
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [backstage]
+  children: [engineering]
