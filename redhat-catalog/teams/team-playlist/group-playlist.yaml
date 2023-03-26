@@ -8,6 +8,6 @@ spec:
   profile:
     displayName: Playlist Development Team
     email: playlist-team@example.com
-  children:
-    - user:eric-playlist
-    - user:frank-playlist
+    picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
