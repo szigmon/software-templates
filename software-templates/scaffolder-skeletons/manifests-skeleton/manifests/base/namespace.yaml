@@ -3,5 +3,7 @@ kind: Namespace
 metadata:
   labels:
     app: ${{ values.repo_name }}
+    argocd/app-name: ${{ values.repo_name }}
+    argocd/app-selector: ${{ values.repo_name }}
     backstage.io/kubernetes-id: ${{ values.namespace }}
   name: ${{ values.namespace }}
