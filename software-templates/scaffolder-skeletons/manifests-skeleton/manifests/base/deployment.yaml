@@ -5,6 +5,8 @@ metadata:
   labels:
     backstage.io/kubernetes-id: ${{ values.namespace }}
     app.kubernetes.io/component: backstage
+    argocd/app-name: ${{ values.repo_name }}
+    argocd/app-selector: ${{ values.repo_name }}
 spec:
   replicas: 1
   selector:
