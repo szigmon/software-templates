@@ -12,3 +12,4 @@ spec:
     - https://github.com/szigmon/techtalk-demo/tree/main/software-templates/scaffolder-templates/dotnet-frontend-template/template.yaml
     - https://github.com/szigmon/techtalk-demo/tree/main/software-templates/scaffolder-templates/spring-boot-backend-template/template.yaml
     - https://github.com/szigmon/techtalk-demo/tree/main/software-templates/scaffolder-templates/quarkus-backend-template/template.yaml
+    - https://github.com/szigmon/techtalk-demo/blob/main/software-templates/scaffolder-templates/argocd-template/template.yaml
